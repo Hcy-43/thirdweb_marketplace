@@ -12,14 +12,18 @@
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3",
-    "@thirdweb-dev/sdk": "^3",
-    "ethers": "^5",
+    "@thirdweb-dev/sdk": "^3.10.49",
+    "ethers": "^5.7.2",
     "next": "^13",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-hooks-useform": "^0.1.86"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "eslint": "8.11.0",
-    "eslint-config-next": "^13"
+    "eslint-config-next": "^13",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
   }
 }
