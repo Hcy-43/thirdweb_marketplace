@@ -65,8 +65,6 @@ export default function NftInfo() {
                 }
                 {
                     isOwner ? (<div>
-                        <div className="font-serif text-4xl opacity-50">Price</div>
-                                <div className="font-serif text-2xl opacity-80">{`${directListing[0]?.currencyValuePerToken.displayValue} ${directListing[0]?.currencyValuePerToken.symbol}`}</div>
                         <div className="font-serif text-4xl mt-3 opacity-50">You are the Owner</div>
                     </div>) :
                         directListing && directListing[0] ?
